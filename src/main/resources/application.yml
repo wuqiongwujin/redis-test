@@ -1,0 +1,11 @@
+testname:
+  applicationName: testRedis
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  redisson:
+    address: redis://10.18.75.115:6379
+    password:
+logging:
+  level: debug
